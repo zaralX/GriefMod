@@ -1,0 +1,11 @@
+name: GriefMod
+version: '${project.version}'
+main: ru.zaralx.griefmod.GriefMod
+api-version: '1.20'
+authors: [zaralX]
+commands:
+  griefmod:
+    description: "GRIEF MOD ADMIN COMMAND"
+    usage: /griefmod
+    aliases: [ grief, gr, g ]
+    permission: griefmod.admin
